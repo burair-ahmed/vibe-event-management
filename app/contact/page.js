@@ -9,10 +9,9 @@ export default function Home() {
           <section className="contact-one">
             <div className="container">
               <div className="contact-one__inner">
-                <h3 className="contact-one__title">Write here below?</h3>
+                <h3 className="contact-one__title">Let's Talk</h3>
                 <p className="contact-one__text">
-                  For your car we will do everything advice, repairs and they
-                  can maintenance. We are the some preferred choice
+                  We'd love to hear from you. Please fill out the form below.
                 </p>
                 <form
                   className="contact-form-validated contact-one__form"
@@ -55,12 +54,11 @@ export default function Home() {
                       <div className="contact-one__input-box">
                         <div className="select-box">
                           <select className="selectmenu wide" defaultValue="Choose Option">
-                            <option value="Choose Option">Choose Option</option>
-                            <option value="Type Of Service 01">Type Of Service 01</option>
-                            <option value="Type Of Service 02">Type Of Service 02</option>
-                            <option value="Type Of Service 03">Type Of Service 03</option>
-                            <option value="Type Of Service 04">Type Of Service 04</option>
-                            <option value="Type Of Service 05">Type Of Service 05</option>
+             <option value="" className="bg-black">Select a Service</option>
+                  <option value="Event Planning">Event Planning</option>
+                  <option value="Catering">Catering</option>
+                  <option value="Venue Booking">Venue Booking</option>
+                  <option value="Photography">Photography</option>
                           </select>
                         </div>
                       </div>
@@ -101,8 +99,7 @@ export default function Home() {
                     </div>
                     <h3 className="contact-two__title">Location</h3>
                     <p className="contact-two__text">
-                      2972 Westheimer Rd. Santa Ana, <br />
-                      Illinois 85486
+                      Office 1/2 Mezzanine Floor Osif Arcade , Block 15 Gulshan-e-Iqbal, Karachi
                     </p>
                   </div>
                 </div>
@@ -116,13 +113,13 @@ export default function Home() {
                     </div>
                     <h3 className="contact-two__title">E-mail</h3>
                     <p className="contact-two__text">
-                      <a href="mailto:tim.jennings@example.com">
-                        tim.jennings@example.com
+                      <a href="mailto:info@vibeeventmanagement.com">
+                        info@vibeeventmanagement.com
                       </a>
                     </p>
                     <p className="contact-two__text">
-                      <a href="mailto:debra.holt@example.com">
-                        debra.holt@example.com
+                      <a href="mailto:support@vibeeventmanagement.com">
+                        support@vibeeventmanagement.com
                       </a>
                     </p>
                   </div>
@@ -137,12 +134,12 @@ export default function Home() {
                     </div>
                     <h3 className="contact-two__title">Contact</h3>
                     <p className="contact-two__text">
-                      <a href="tel:019457896332">019457896332</a>,{" "}
-                      <a href="tel:017485962546">017485962546</a>
+                      <a href="tel:03237652515"><br/>0323-7652515</a>{" "}
+                      {/* <a href="tel:017485962546"></a> */}
                     </p>
-                    <p className="contact-two__text">
+                    {/* <p className="contact-two__text">
                       <a href="tel:016457896333">016457896333</a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 {/* Contact Two Single End */}

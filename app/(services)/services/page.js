@@ -26,7 +26,7 @@ export default function Home() {
       title: "Decor",
       description:
         "Transform your space with elegant and personalized décor themes that reflect your unique style.",
-      link: "elite-event-management",
+      // link: "elite-event-management",
       icon: "icon-dinner-table",
       wowDelay: "300ms",
     },
@@ -35,7 +35,7 @@ export default function Home() {
       title: "Invitation Card",
       description:
         "Make a lasting first impression with beautifully designed invitation cards that capture the event’s spirit.",
-      link: "infinite-occasions",
+      // link: "infinite-occasions",
       icon: "icon-cake",
       wowDelay: "400ms",
     },
@@ -87,17 +87,17 @@ export default function Home() {
                         <span className={service.icon}></span>
                       </div>
                       <h3 className="services-one__title">
-                        <Link href={service.link}>{service.title}</Link>
+                      {service.title}
                       </h3>
                       <p className="services-one__text">
                         {service.description}
                       </p>
-                      <Link
+                      {/* <Link
                         href={service.link}
                         className="services-one__read-more"
                       >
                         Read More <span className="icon-arrow-right"></span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 ))}

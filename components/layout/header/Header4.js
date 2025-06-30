@@ -24,14 +24,14 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                 <div className="main-menu__right">
                   <div className="main-menu__btn-box">
                     <Link href="/contact" className="main-menu__btn thm-btn">
-                        Buy Ticket <span className="icon-arrow-right"></span>
+                        Get a Qoute <span className="icon-arrow-right"></span>
                     </Link>
                   </div>
                     <div className="main-menu__cart-search-nav-sidebar-icon-and-btn-box">
-                      <a href="#" className="main-menu__cart icon-cart"></a>
+                      {/* <a href="#" className="main-menu__cart icon-cart"></a>
                       <a href="#" className="main-menu__search search-toggler" onClick={handlePopup}>
                         <span className="icon-loupe"></span>
-                      </a>
+                      </a> */}
                       <div className="main-menu__nav-sidebar-icon" onClick={handleSidebar}>
                         <div className="navSidebar-button">
                           <span className="icon-menu1"></span>
@@ -64,14 +64,14 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                 <div className="main-menu__right">
                 <div className="main-menu__btn-box">
                     <Link href="/contact" className="main-menu__btn thm-btn">
-                        Buy Ticket <span className="icon-arrow-right"></span>
+                        Get a Qoute <span className="icon-arrow-right"></span>
                     </Link>
                   </div>
                   <div className="main-menu__cart-search-nav-sidebar-icon-and-btn-box">
-                    <a href="#" className="main-menu__cart icon-cart"></a>
-                    <div className="main-menu__search search-toggler" onClick={handlePopup}>
+                    {/* <a href="#" className="main-menu__cart icon-cart"></a> */}
+                    {/* <div className="main-menu__search search-toggler" onClick={handlePopup}>
                       <span className="icon-loupe"></span>
-                    </div>
+                    </div> */}
                     <div className="main-menu__nav-sidebar-icon" onClick={handleSidebar}>
                       <div className="navSidebar-button">
                         <span className="icon-menu1"></span>
