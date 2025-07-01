@@ -44,7 +44,7 @@ export default function Footer1() {
                 </div>
 
                 {/* Column: Quick Links */}
-                <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                <div className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                   <div className="footer-widget__column footer-widget__link">
                     <div className="footer-widget__title-box">
                       <h3 className="footer-widget__title">Quick links</h3>
@@ -59,23 +59,26 @@ export default function Footer1() {
                 </div>
 
                 {/* Column: Our Company */}
-                <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                <div className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                   <div className="footer-widget__column footer-widget__our-company">
                     <div className="footer-widget__title-box">
                       <h3 className="footer-widget__title">Our Company</h3>
                     </div>
-                    <ul className="footer-widget__link-list list-unstyled">
-                      <li><Link href="/schedule-list-2">Jubilee Events</Link></li>
-                      <li><Link href="/about">Gala Affairs</Link></li>
-                      <li><Link href="/about">Inspire and Delight Events</Link></li>
-                      <li><Link href="/about">Enchanted Gatherings</Link></li>
-                      <li><Link href="/about">Eventful Ventures</Link></li>
-                    </ul>
+                  <ul className="footer-widget__link-list list-unstyled">
+  <li><Link href="/services#catering">Catering</Link></li>
+  <li><Link href="/services#venue">Venue</Link></li>
+  <li><Link href="/services#decor">Decor</Link></li>
+  <li><Link href="/services#invitations">Invitation Card</Link></li>
+  <li><Link href="/services#entertainment">Singers & Qawals</Link></li>
+  <li><Link href="/services#transport">Rent a Car</Link></li>
+  <li><Link href="/services#photography">Photography</Link></li>
+</ul>
+
                   </div>
                 </div>
 
                 {/* Column: Contact Info */}
-                <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div className="col-xl-5 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                   <div className="footer-widget__column footer-widget__contact">
                     <div className="footer-widget__title-box">
                       <h3 className="footer-widget__title">Contact</h3>
@@ -87,7 +90,7 @@ export default function Footer1() {
                             <span className="icon-envelop"></span>
                           </div>
                           <div className="text">
-                            <p><a href="mailto:nafiz125@gmail.com">info@vibeeventmanagement.com</a></p>
+                            <p><a href="mailto:info@vibeeventmanagement.com">info@vibeeventmanagement.com</a></p>
                           </div>
                         </li>
                         <li>
@@ -95,7 +98,8 @@ export default function Footer1() {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>3891 Ranchview Dr. Richardson</p>
+                            <p>Office 1/2 Mezzanine Floor Osif Arcade,<br/>Block 15
+                      Gulshan-e-Iqbal, Karachi</p>
                           </div>
                         </li>
                         <li>
@@ -103,7 +107,7 @@ export default function Footer1() {
                             <span className="icon-call"></span>
                           </div>
                           <div className="text">
-                            <p><a href="tel:01245789321">01245789321, 012457895146</a></p>
+                            <p><a href="tel:0323-7652515  ">0323-7652515</a></p>
                           </div>
                         </li>
                       </ul>

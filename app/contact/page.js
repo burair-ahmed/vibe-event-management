@@ -53,12 +53,15 @@ export default function Home() {
                     <div className="col-xl-6 col-lg-6">
                       <div className="contact-one__input-box">
                         <div className="select-box">
-                          <select className="selectmenu wide" defaultValue="Choose Option">
-             <option value="" className="bg-black">Select a Service</option>
-                  <option value="Event Planning">Event Planning</option>
-                  <option value="Catering">Catering</option>
-                  <option value="Venue Booking">Venue Booking</option>
-                  <option value="Photography">Photography</option>
+                          <select
+                            className="selectmenu wide"
+                            defaultValue="Choose Option"
+                          >
+                            <option value="" className="bg-black">Select a Service</option>
+                            <option value="Event Planning">Event Planning</option>
+                            <option value="Catering">Catering</option>
+                            <option value="Venue Booking">Venue Booking</option>
+                            <option value="Photography">Photography</option>
                           </select>
                         </div>
                       </div>
@@ -99,7 +102,8 @@ export default function Home() {
                     </div>
                     <h3 className="contact-two__title">Location</h3>
                     <p className="contact-two__text">
-                      Office 1/2 Mezzanine Floor Osif Arcade , Block 15 Gulshan-e-Iqbal, Karachi
+                      Office 1/2 Mezzanine Floor Osif Arcade , Block 15
+                      Gulshan-e-Iqbal, Karachi
                     </p>
                   </div>
                 </div>
@@ -134,7 +138,10 @@ export default function Home() {
                     </div>
                     <h3 className="contact-two__title">Contact</h3>
                     <p className="contact-two__text">
-                      <a href="tel:03237652515"><br/>0323-7652515</a>{" "}
+                      <a href="tel:03237652515">
+                        <br />
+                        0323-7652515
+                      </a>{" "}
                       {/* <a href="tel:017485962546"></a> */}
                     </p>
                     {/* <p className="contact-two__text">
