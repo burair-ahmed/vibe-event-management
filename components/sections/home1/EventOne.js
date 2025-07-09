@@ -1,39 +1,38 @@
-"use client"; // Ensures the component runs on the client side
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
 
 export default function EventOne() {
-  // State for dynamic content
   const [eventContent, setEventContent] = useState({
-    sectionTagline: "About Our Event",
-    sectionTitle: "Uniting Creating of the Memories",
-    buttonText: "Join The Event",
-    buttonLink: "/event-details",
+    sectionTagline: "Corporate Gatherings",
+    sectionTitle: "Celebrate Success with Memorable Office Events",
+    buttonText: "Plan Your Event",
+    buttonLink: "/contact",
     points: [
       {
         id: 1,
-        iconClass: "icon-air-horn",
-        title: "Artists & bands",
+        iconClass: "icon-briefcase", // You can customize this icon based on your icon pack
+        title: "Office Celebrations",
         description:
-          "Events bring people together for a shared experience celebration. From weddings and birthdays to conferences.",
-        link: "/event",
+          "From employee birthdays to milestone achievements, we help you celebrate joyfully within the workplace.",
+        link: "/corporate-events",
       },
       {
         id: 2,
-        iconClass: "icon-party-blower",
-        title: "Audience Event Planner",
+        iconClass: "icon-users", // Adjust icon as needed
+        title: "Team Building Events",
         description:
-          "Events bring people together for a shared experience celebration. From weddings and birthdays to conferences.",
-        link: "/event",
+          "Boost morale and strengthen collaboration with professionally planned corporate retreats and activities.",
+        link: "/corporate-events",
       },
     ],
-    eventImage: "/assets/images/resources/event-one-img-1.jpg",
+    eventImage: "/assets/images/resources/event-one-img-1.jpg", // Make sure the image is in the /public folder
   });
 
   return (
     <>
-      {/* Event One Start */}
+      {/* Corporate Event Section Start */}
       <section className="event-one">
         <div className="container">
           <div
@@ -52,7 +51,10 @@ export default function EventOne() {
                 </h2>
               </div>
               <div className="event-one__btn-box">
-                <Link href={eventContent.buttonLink} className="event-one__btn thm-btn">
+                <Link
+                  href={eventContent.buttonLink}
+                  className="event-one__btn thm-btn"
+                >
                   {eventContent.buttonText}
                   <span className="icon-arrow-right"></span>
                 </Link>
@@ -76,12 +78,12 @@ export default function EventOne() {
             </ul>
 
             <div className="event-one__img-box">
-              <img src={eventContent.eventImage} alt="Event" />
+              <img src={eventContent.eventImage} alt="Corporate Event" />
             </div>
           </div>
         </div>
       </section>
-      {/* Event One End */}
+      {/* Corporate Event Section End */}
     </>
   );
 }

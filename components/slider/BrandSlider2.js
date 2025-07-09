@@ -43,7 +43,6 @@ const swiperOptions = {
                   spaceBetween: 100,
                   slidesPerView: 5
               }
-          
     }
 }
 
