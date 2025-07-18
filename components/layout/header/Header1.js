@@ -75,7 +75,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                   </div>
                   <div className="main-menu__btn-box">
                     <Link href="/contact" className="main-menu__btn thm-btn">
-                        Buy Ticket <span className="icon-arrow-right"></span>
+                        Get a Qoute <span className="icon-arrow-right"></span>
                     </Link>
                   </div>
                 </div>

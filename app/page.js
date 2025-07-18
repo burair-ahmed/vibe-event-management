@@ -24,9 +24,9 @@ export default function Home() {
                 <TeamOne />
                 <EventDirection />
                 <GalleryOne />
-                <ScheduleOne />
+                {/* <ScheduleOne /> */}
                 <Brand />
-                <BlogOne />
+                {/* <BlogOne /> */}
                 <CTAOne />
             </Layout>
         </>
